@@ -1,0 +1,10 @@
+qlik:
+  host: https://sense.highcoordination.de
+  auth: header
+  proxy: hdr
+  user_directory: HICO-GROUP
+  user_id: HICO-GROUP\ahs
+  verify_ssl: false
+
+output:
+  script_folder: scripts
