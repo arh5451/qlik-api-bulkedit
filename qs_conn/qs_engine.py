@@ -4,7 +4,6 @@ import os
 import ssl
 import websocket
 
-
 class QlikEngineClient:
     def __init__(self, host, user_directory, user_id, verify_ssl=False):
         """

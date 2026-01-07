@@ -10,6 +10,13 @@ from qs_conn.qs_engine import QlikEngineClient
 
 # Setup the client
 
+ws = websocket.WebSocket()
+ws.connect("ws://websockets.chilkat.io/wsChilkatEcho.ashx")
+ws.send("Hello, Server")
+19
+print(ws.recv())
+
+exit()
 
 client = QlikQRSClient(
     server="https://sense.highcoordination.de",
