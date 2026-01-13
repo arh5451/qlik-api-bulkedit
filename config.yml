@@ -1,5 +1,5 @@
 qlik:
-  host: https://sense.highcoordination.de
+  host: sense.highcoordination.de
   auth: header
   proxy: hdr
   user_directory: HICO-GROUP
